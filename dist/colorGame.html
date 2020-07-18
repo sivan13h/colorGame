@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Color game</title>
+    <link rel="stylesheet" type="text/css" href="/dist/css/colorgame.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <h2>The Great</h2>
+      <h1><span id="colorDisplay">color</span></h1>
+      <h2>Guessing Game</h2>
+    </div>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item" id="new">
+        <button id="playAgain">NEW COLORS</button>
+      </li>
+      <p id="message"></p>
+      <li class="nav-item">
+        <button id="easy">EASY</button>
+      </li>
+      <li class="nav-item">
+        <button id="hard">HARD</button>
+      </li>
+    </ul>
+
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <br />
+      <div id="hardModeSquares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/dist/app.JS"></script>
+  </body>
+</html>

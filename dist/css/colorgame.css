@@ -1,0 +1,70 @@
+html body {
+    background-color: #232323;
+}
+
+h1, h2{
+    color:white;
+    
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom:30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20px;
+    transition: background 0.6s;
+
+}
+
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top:20px;
+    
+}
+
+#header {
+    background-color: steelblue;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.nav{
+    background-color: white;
+    height: 40px;
+    
+}
+
+#message{
+    width: 30%;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.selected{
+    background-color: steelblue;
+    color: white;
+       
+}
+
+button {
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline:none !important;
+    font-weight: 800;
+    color: steelblue;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+    transition: all 0.3s;
+}
+
+
